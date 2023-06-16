@@ -31,8 +31,8 @@ while True:
     # Print normalized image
     
 
-    keyboard_input = cv2.waitKey(1)
-    if keyboard_input == 27:
+    keyboardInput = cv2.waitKey(1)
+    if keyboardInput == 27:
         break
 
 camera.release()
